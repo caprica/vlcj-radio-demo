@@ -1,0 +1,68 @@
+
+                             === vlcj Radio ===
+
+
+== Introduction ==
+
+A sample application built using vlcj and libvlc that streams internet radio.
+
+This application reads various internet radio station directories and allows 
+you to search that combined directory to play radio station audio streams of 
+interest.
+
+
+== License ==
+
+vlcj is distributed under the terms of the GPL-3 license.
+
+vlc is distributed under the terms of the GPL license.
+
+JNA is distributed under the terms of the LGPL license.
+
+GlazedLists is distributed under the terms of the LGPL license.
+
+MIGLayout is distributed under the terms of the GPL license.
+
+The Simple XML framework is distributed under the terms of the Apache 2.0 license.
+
+HtmlUnit is distributed under the terms of the Apache 2.0 license.
+
+
+== Recording Streams ==
+
+This example application also includes a feature to demonstrate how to use 
+libvlc to record an audio stream.
+
+Some internet streaming sites forbid in their terms and conditions the saving of 
+streams. It is your responsibility to make sure you have permission to save all
+such streams.
+
+Further, in some territories it may not be permitted to encode the audio as MP3
+without paying a fee to obtain a license. Again, it is your responsibility to
+make sure you have permission to encode the audio as MP3 and to abide by
+whatever the relevant laws are in your jurisdiction.
+
+This software contains no MP3 encoder of it's own, an MP3 encoder is only 
+available if your OS distribution makes it available.
+
+In all instances, a condition of use of this software is that you take full
+responsibility for the streams you record.
+
+Recorded streams will end up in a "vlcj-radio" directory inside your user home
+directory.
+
+
+== Distribution Contents ==
+
+The main artefacts are:
+
+  vlcj-radio-<version>.jar           - jar file for compiling and running against
+  vlcj-radio-<version>-sources.jar   - all source code
+  vlcj-radio-<version>-javadoc.jar   - generated javadoc API documentation
+
+
+== Feedback and Contact Details ==
+
+I'd be happy to hear about any interesting uses you may put this to!
+
+email: mark.lee <at> capricasoftware.co.uk
